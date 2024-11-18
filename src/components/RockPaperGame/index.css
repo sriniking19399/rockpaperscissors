@@ -1,0 +1,111 @@
+.bg-container {
+  background-color: #223a5f;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.score {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.score-container {
+  width: 70%;
+  height: 25%;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.result-container {
+  background-color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 100px;
+  border-radius: 10px;
+}
+.choices-container {
+  width: 50%;
+  height: 50%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #223a5f;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: center;
+}
+.rules-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.close-button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+}
+.result-display-container {
+  width: 50%;
+  height: 60%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.result-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.rules-image {
+  width: 90%;
+  height: 90%;
+}
+.result-you {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.select-image {
+  width: 100px;
+}

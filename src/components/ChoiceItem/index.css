@@ -1,0 +1,10 @@
+.choice-item {
+  width: 50%;
+}
+.choice-image {
+  width: 100px;
+}
+.choice-button{
+  background: none;
+  border: none;
+}
