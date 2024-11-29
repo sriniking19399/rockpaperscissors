@@ -18,8 +18,8 @@ class RockPaperGame extends Component {
   getSelectChoice = id => {
     const {choicesList} = this.props
     const [selectItem] = choicesList.filter(eachItem => eachItem.id === id)
-    const randimItem = choicesList[Math.floor(Math.random() * 10) % 3]
-    if (randimItem.id === selectItem.id) {
+    const randimItem = choicesList[Math.floor(Math.random()*choicesList.length)]
+    if (randimItem.id == selectItem.id) {
       this.setState({
         resultText: 'IT IS DRAW',
         result: false,
@@ -38,7 +38,8 @@ class RockPaperGame extends Component {
         score: prevState.score + 1,
         result: false,
       }))
-    } else {
+    }
+     else {
       this.setState(prevState => ({
         resultText: 'YOU LOSE',
         score: prevState.score - 1,

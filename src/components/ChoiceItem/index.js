@@ -5,6 +5,7 @@ const ChoiceItem = props => {
   const {id, imageUrl} = listItem
   const onClickButton = () => {
     getSelectChoice(id)
+    console.log(`${id.toLowerCase(id)}Button`)
   }
   return (
     <li className="choice-item">
